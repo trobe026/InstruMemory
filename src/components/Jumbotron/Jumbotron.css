@@ -1,0 +1,19 @@
+.jumbotron {
+  width: 100%;
+  padding: 150px;
+  background-color: #272727;
+  color: #66FCF1;
+  border-bottom: 10px solid #1F2833;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron h1 {
+  font-size: 4vw;
+  /* padding-top: 15px; */
+}
+
+h4 {
+  color: #45A29E;
+  font-size: 1.5vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}

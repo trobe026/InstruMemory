@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+  background-color: #0B0C10;
+  border-bottom: 10px solid #1F2833;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.0vw;
+}
+
+h3 {
+  font-size: 1.7vw;
+}
+
+li {
+  color: #C5C6C7;
+  font-size: 2px;
+  display: inline-block;
+}
+li:last-child {
+  color: #45A29E;
+  margin-right: 10px;
+  font-size: 2px;
+}
+
+.navbar-header {
+  width: 100%;
+  padding: 20px;
+  font-size: 2px;
+}
+
+nav {
+
+}

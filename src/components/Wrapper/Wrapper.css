@@ -1,0 +1,50 @@
+.wrapper {
+  /* animation: shake 0.82s cubic-bezier(.36,.27,.39,.97) both; */
+  /* transform: translate3d(0, 0, 0); */
+  /* backface-visibility: hidden;
+  perspective: 1000px; */
+
+  display: flex;
+  flex-flow: row wrap;
+  /* padding: 0 20px; */
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/E6LxqQ1ixikssn79z/flowing-gold-music-symbols_nd84evqjx__F0000.png')
+  repeat center center fixed;
+  padding-bottom: 50px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-6px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(6px, 0, 0);
+  }
+}
+
+.animate {
+  animation: shake 0.82s cubic-bezier(.36,.27,.39,.97) both;
+  /* transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px; */
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/E6LxqQ1ixikssn79z/flowing-gold-music-symbols_nd84evqjx__F0000.png')
+  repeat center center fixed;
+  padding-bottom: 50px;
+}
